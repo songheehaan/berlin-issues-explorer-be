@@ -32,6 +32,8 @@ Install build tool used in this project **gradle** ([instructions](https://gradl
 
 Data about github repositories of opensource projects and currently open issues which contain one of the labels from preconfigured list is fetched from github through github REST api and stored in relational database.
 
+Link to GitHub API: https://developer.github.com/v3/
+
 
 REST api then serves information about issues. Additionally, data stored in database can be used for further analysis about activities in stored repositories (how active beginners are in given repo = how many issues with given set of labels were closed in the last X days, etc.) 
 
