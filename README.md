@@ -30,29 +30,31 @@ In order to have development environment ready so that you can start contributin
  
 
 ### Use cloud IDE preconfigured for this project (up and running in few minutes)
-    * Paste the following url in your browser and create free user account for codenvy.io
-      * https://codenvy.io/f?name=berlin-issues-explorer&user=ivanamb
-    * Connect your github account with following steps:
-      * If you want to use terminal:
-        * `git config user.name <commiter name>`
-        * `git config user.email <email used for your github account>`
-        * generate ssh key `ssh-keygen -t rsa`
-        * add key you've just generated to your github account as described [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-      * If you prefer git GUI over terminal, follow instructions described [here](https://codenvy.com/docs/user-guide/git-svn/index.html#generate-new-ssh-keys)
-    * to start the project run `build-run` command (clicking on PLAY button )
+  * Paste the following url in your browser and create free user account for codenvy.io
+    * https://codenvy.io/f?name=berlin-issues-explorer&user=ivanamb
+  * Connect your github account with following steps:
+    * If you want to use terminal:
+      * `git config user.name <commiter name>`
+      * `git config user.email <email used for your github account>`
+      * generate ssh key `ssh-keygen -t rsa`
+      * add key you've just generated to your github account as described [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+    * If you prefer git GUI over terminal, follow instructions described [here](https://codenvy.com/docs/user-guide/git-svn/index.html#generate-new-ssh-keys)
+  * to start the project run `build-run` command (clicking on PLAY button )
 
 
 ### Run and build project locally
-    * install java8: [link](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
-    * install mvn [link](https://maven.apache.org/install.html)
-    * install/update your favorite IDE ([intellij](https://www.jetbrains.com/help/idea/installing-and-launching.html)/[eclipse](http://www.eclipse.org/downloads/))
-    * to start the project in project root directory run `mvn package && java -jar target/issues-explorer-0.1.0.jar`
+  * install java8 ([link](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html))
+  * install mvn build tool ([link](https://maven.apache.org/install.html))
+  * install/update your favorite IDE ([intellij](https://www.jetbrains.com/help/idea/installing-and-launching.html)/[eclipse](http://www.eclipse.org/downloads/))
+  * to start the project in project root directory run 
+  ```mvn package && java -jar target/issues-explorer-0.1.0.jar```
 
 ## Implementation
 
 Data about github repositories of opensource projects and currently open issues which contain one of the labels from preconfigured list is fetched from github through github REST api and stored in relational database.
 
 Link to GitHub API: https://developer.github.com/v3/
+
 GitHub Wrapper for JAVA: https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core
 
 
