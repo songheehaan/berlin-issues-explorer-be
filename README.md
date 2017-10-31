@@ -29,7 +29,14 @@ Please review our [contributing guidelines](CONTRIBUTING.md) and enjoy collabora
 In order to have development environment ready so that you can start contributing follow steps in one of two listed options:
   
   1) Run and build project locally
+    * java8 is installed
+    * gradle (build tool) is installed
+    * your favorite IDE is installed (intellij/eclipse)
+    * gradle plugin for IDE is installed
+
   2) Use cloud IDE preconfigured for this project (up and running in few minutes)
+    * Paste the following url in your browser and create free user account for codenvy.io
+    * Connect your github account 
 
 ## Implementation
 
