@@ -24,9 +24,12 @@ With this, we want to provide learning playground for Hack Evening participants 
 
 Please review our [contributing guidelines](CONTRIBUTING.md) and enjoy collaboration! 
 
-## Prerequisites  
-
-Install build tool used in this project **gradle** ([instructions](https://gradle.org/install/)) and **heroku CLI** for deployment process ([instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install))
+## Setup development environment
+  
+In order to have development environment ready so that you can start contributing follow steps in one of two listed options:
+  
+  1) Run and build project locally
+  2) Use cloud IDE preconfigured for this project (up and running in few minutes)
 
 ## Implementation
 
