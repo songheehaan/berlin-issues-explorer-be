@@ -38,14 +38,14 @@ In order to have development environment ready so that you can start contributin
         * `git config user.email <email used for your github account>`
         * generate ssh key `ssh-keygen -t rsa`
         * add key you've just generated to your github account as described [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-      * If you prefer git GUI, follow instructions described [here](https://codenvy.com/docs/user-guide/git-svn/index.html#generate-new-ssh-keys)
+      * If you prefer git GUI over terminal, follow instructions described [here](https://codenvy.com/docs/user-guide/git-svn/index.html#generate-new-ssh-keys)
 
 
 ### Run and build project locally
-    * java8 is installed
-    * gradle (build tool) is installed
-    * your favorite IDE is installed (intellij/eclipse)
-    * gradle plugin for IDE is installed
+    * install java8
+    * install mvn
+    * install/update your favorite IDE (intellij/eclipse)
+    * install mvn plugin for IDE
 
 
 ## Implementation

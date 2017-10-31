@@ -24,6 +24,10 @@ Icon
 .gradle/
 build/
 
+### Maven ###
+# Exclude Folder List #
+target/
+
 
 ### Eclipse ###
 *.pydevproject
