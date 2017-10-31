@@ -31,7 +31,7 @@ In order to have development environment ready so that you can start contributin
 
 ### Use cloud IDE preconfigured for this project (up and running in few minutes)
     * Paste the following url in your browser and create free user account for codenvy.io
-      * https://codenvy.io/f?name=berlin-issues-explorer-factory&user=ivanamb
+      * https://codenvy.io/f?name=berlin-issues-explorer-be&user=ivanamb
     * Connect your github account with following steps:
       * If you want to use terminal:
         * `git config user.name <commiter name>`
