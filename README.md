@@ -27,16 +27,26 @@ Please review our [contributing guidelines](CONTRIBUTING.md) and enjoy collabora
 ## Setup development environment
   
 In order to have development environment ready so that you can start contributing follow steps in one of two listed options:
-  
-  1) Run and build project locally
+ 
+
+### Use cloud IDE preconfigured for this project (up and running in few minutes)
+    * Paste the following url in your browser and create free user account for codenvy.io
+      * https://codenvy.io/f?name=berlin-issues-explorer-factory&user=ivanamb
+    * Connect your github account with following steps:
+      * If you want to use terminal:
+        * `git config user.name <commiter name>`
+        * `git config user.email <email used for your github account>`
+        * generate ssh key `ssh-keygen -t rsa`
+        * add key you've just generated to your github account as described [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+      * If you prefer git GUI, follow instructions described [here](https://codenvy.com/docs/user-guide/git-svn/index.html#generate-new-ssh-keys)
+
+
+### Run and build project locally
     * java8 is installed
     * gradle (build tool) is installed
     * your favorite IDE is installed (intellij/eclipse)
     * gradle plugin for IDE is installed
 
-  2) Use cloud IDE preconfigured for this project (up and running in few minutes)
-    * Paste the following url in your browser and create free user account for codenvy.io
-    * Connect your github account 
 
 ## Implementation
 
