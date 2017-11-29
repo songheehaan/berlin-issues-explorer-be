@@ -24,15 +24,15 @@ With this, we want to provide learning playground for Hack Evening participants 
 
 Please review our [contributing guidelines](CONTRIBUTING.md) and enjoy collaboration! 
 
-## Prerequisites  
+## Setup  
 
-Install build tool used in this project **gradle** ([instructions](https://gradle.org/install/)) and **heroku CLI** for deployment process ([instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install))
-
+Information how to setup your local environment can be found [here](SETUP.md)
 ## Implementation
 
 Data about github repositories of opensource projects and currently open issues which contain one of the labels from preconfigured list is fetched from github through github REST api and stored in relational database.
 
 Link to GitHub API: https://developer.github.com/v3/
+
 GitHub Wrapper for JAVA: https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core
 
 
