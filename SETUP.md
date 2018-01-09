@@ -12,10 +12,10 @@ For developing java projects it is very helpful to have IDE setup. You can eithe
 
 There are many cloud IDEs, but only few flexible enough and still not requiring credit card for registration. We chose *cloudtasty* but we are open for suggestions:)
 
-  * create free account at [cloudtasty](http://cloudtasty.com)
+  * create free account at [codetasty](https://codetasty.com/)
   * send your username to berlinhacknights@womenwhocode.com, so that we add you to the project
   * once you get confirmation that you are added to the project, use `wwc-issues-explorer` workspace. All prerequisites are installed (java8, gradle build tool, git).
-  * detailed information how to use cloud IDE and run the project there for the first time can be found [here]() 
+  * detailed information how to use cloud IDE and run the project there for the first time can be found [here](cloud_ide_setup.pdf) 
   
 ### Run and build project locally
 
