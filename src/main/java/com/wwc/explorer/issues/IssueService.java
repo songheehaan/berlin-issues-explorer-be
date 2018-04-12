@@ -63,14 +63,3 @@ public class IssueService {
 
 
 }
-
-
-
-
-
-//
-//    @RequestMapping(value ="/",produces = "application/json")
-//    public String getURLValue(HttpServletRequest request){
-//        String test = request.getRequestURI();
-//        return test;
-//    }
