@@ -11,14 +11,16 @@ public class IssuesController {
         return "Stay tuned. This service will soon start serving github issues for opensource newbies.";
     }
     @RequestMapping("/issue")
-    public String issue(){
+    public void issue(){
         IssueService iS = new IssueService();
-        String result = "";
+        iS.javaApi();
+
+        /*        String result = "";
         try {
             result = iS.sendGET();
         }catch(IOException ioe){
             ioe.getStackTrace();
         }
-        return result;
+        return result;*/
     }
 }

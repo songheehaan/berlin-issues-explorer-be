@@ -36,4 +36,7 @@ dependencies {
     // end::actuator[]
     testCompile("junit:junit")
     testCompile("org.springframework.boot:spring-boot-starter-test")
+
+    compile("org.eclipse.mylyn.github:org.eclipse.egit.github.core:2.1.5")
+
 }

@@ -1,5 +1,9 @@
 package com.wwc.explorer.issues;
 
+import org.eclipse.egit.github.core.Repository;
+import org.eclipse.egit.github.core.client.GitHubClient;
+import org.eclipse.egit.github.core.service.RepositoryService;
+
 import javax.servlet.http.HttpServletRequest;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +16,8 @@ import java.net.URL;
 public class IssueService {
     // connect to Git API
 	private static final String USER_AGENT = "Mozilla/5.0";
-	private static final String GET_URL = "https://api.github.com/zen";
+//	private static final String GET_URL = "https://api.github.com/zen";
+	private static final String GET_URL ="-i https://api.github.com/users/defunkt";
 
     public static String sendGET() throws IOException {
         URL obj = new URL(GET_URL);
@@ -38,6 +43,24 @@ public class IssueService {
         }
         return  result;
     }
+
+    public static void javaApi(){
+        try {
+/*            GitHubClient client = new GitHubClient();
+            client.setCredentials("user", "passw0rd");*/
+
+            //OAuth2 token authentication
+            GitHubClient client = new GitHubClient();
+            client.setOAuth2Token("enter personal access token");
+
+            RepositoryService service = new RepositoryService();
+            for (Repository repo : service.getRepositories("defunkt")) //https://github.com/defunkt?tab=repositories
+                System.out.println(repo.getName() + " Watchers: " + repo.getWatchers());
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
 
 }
 
