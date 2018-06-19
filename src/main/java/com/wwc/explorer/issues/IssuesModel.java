@@ -1,5 +1,5 @@
 package com.wwc.explorer.issues;
 
-public class IssueModel {
+public class IssuesModel {
     //containing JSON
 }
